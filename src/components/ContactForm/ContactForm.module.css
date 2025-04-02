@@ -1,0 +1,37 @@
+.formField {
+  font-weight: 600;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
+}
+.formPiece {
+  display: flex;
+  flex-direction: column;
+}
+.inpField {
+  min-width: 400px;
+  height: 30px;
+  padding: 5px;
+  border: 1px inset black;
+  border-radius: 5px;
+}
+.searchBut {
+  outline: none;
+  margin-top: 20px;
+  align-self: center;
+  background-color: rgb(216, 221, 221);
+  max-height: 40px;
+  border: 1px solid rgb(65, 65, 65);
+  padding: 3px 15px;
+}
+
+.searchBut:focus {
+  outline: none;
+}
+.searchBut:active {
+  outline: none;
+  background-color: rgb(144, 146, 146);
+}

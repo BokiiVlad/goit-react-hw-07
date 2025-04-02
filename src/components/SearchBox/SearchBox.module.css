@@ -1,0 +1,12 @@
+.findField {
+  margin-bottom: 20px;
+  min-width: 400px;
+  height: 30px;
+  padding: 5px;
+  border: 1px inset black;
+  border-radius: 5px;
+}
+.searchText {
+  font-weight: 600;
+  text-align: left;
+}

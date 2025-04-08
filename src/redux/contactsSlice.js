@@ -1,5 +1,4 @@
 import { createSelector, createSlice } from "@reduxjs/toolkit"
-import contactsArr from "../contactsArr";
 import { fetchContacts, addContact, deleteContact } from "../redux/contactsOps"
 import { selectNameFilter } from "./filtersSlice";
 
